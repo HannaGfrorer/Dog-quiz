@@ -5,22 +5,12 @@
 }
 
 body {
-    font-family: 'Fira+Sans', sans-serif;
-    font-weight: 300;
-    color:  #474646;
+    background-color: white;
+    font-family: "Raleway", sans-serif;
+    color: #445361;
+    text-align: center;
 }
 
-h1 {
-    font-weight: 800;
-    font-size: 260%;
-    letter-spacing: 2px;
-}
-
-p {
-    letter-spacing: 1px;
-    font-size: 1.2vw;
-    color: #3a3a3a;
-}
 /* header and logo */
 
 header {
@@ -40,14 +30,41 @@ header {
 }
 
 .heading {
-
+    text-align: center;
+    font-size: 2.5rem;
 }
 
+h1 {
+    font-weight: 800;
+    font-size: 260%;
+    letter-spacing: 2px;
+}
+
+p {
+    letter-spacing: 1px;
+    font-size: 1.2vw;
+    color: #3a3a3a;
+}
+
+/* --------- Game layout */
 .game-area {
-
+    background-color: #E6ECF0;
+    box-sizing: border-box;
+    width: 85%;
+    height: 65vh;
+    max-height: 450px;
+    max-width: 830px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1%;
 }
 
-.question-area {}
+.question-area {
+    width: 50%;
+    font-size: 2rem;
+    margin: auto;
+    padding: 50px 0;
+}
 
 #question {}
 
@@ -61,6 +78,11 @@ header {
 
 #dog-picture{}
 
+
+
+
+/* --------- Buttons */
+
 .btn btn--gray {
     color: #597305;
         text-align: center;
@@ -70,10 +92,6 @@ header {
         margin-top: 20px;
         padding: 10px;
 }
-
-#control-score{}
-
-.controls{}
 
 #start-btn {
     color: #4f6507;
@@ -115,12 +133,35 @@ header {
         padding: 10px;
     }
 
-.score-area {}
 
-.scores{}
+ .score-area {
+        margin: 5px auto;
+        width: 60%;
+        font-size: 1.2rem;
+    }
+    
+.controls-area {
+        width: 85%;
+        margin: 30px auto;
+    }
 
-#score {}
+.score-area {
+    margin: 5px auto;
+    width: 60%;
+    font-size: 1.2rem;
+}
 
-.scores {}
+.scores{
+    display: inline-block;
+    padding: 25px;
+}
 
-#incorrect{}
+#score {
+    color: green;
+    font-weight: bold;
+}
+
+#incorrect{
+    color: red;
+    font-weight: bold;
+}
