@@ -8,7 +8,8 @@
     <!-- font awesome and google fonts -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Raleway%7CRighteous" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap" rel="stylesheet">
+
 
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Dog Quiz</title>
@@ -16,22 +17,27 @@
 
 <body>
     <h1 class="heading">
-        <img class="logo" src="assets/images/logodog.png" alt="logo"> Are you ready to se how mutch you know about dogs?
+        <img class="logo" src="assets/images/doglogo.jpg" alt="logo"> Are you ready to se how mutch you know about dogs?
     </h1>
 
     <div class="game-area">
         <div class="question-area">
-            <img class="logo" src="assets/images/twodogs.webp" alt="twodogs"> 
+            <img class="logo" src="assets/images/flowerdog.jpg" alt="dog whit flower"> 
             <p id="question"></p>
             <p id="alternativ-one"></p>
             <p id="alternativ-two"></p>
             <p id="alternativ-three"></p>
             <div id="imag-source"></div>
+            <div id="dog-picture"></div> i html-koden, och lägger till hela <img src="assets/images/chiwawa.jpg">
         </div>
         
         <button data-type="submit" class="btn btn--gray">Submit Answer</button>
     </div>
-
+    <div id="control-score">
+        <div class="controls">
+            <button id="start-btn" class="start-btn btn font">Start</button>
+            <button id="next-btn" class="next-btn btn hidden font">Next</button>
+        </div>
     <div class="score-area">
         <p class="scores">Correct Answers <span id="score">0</span></p>
         <p class="scores">Incorrect Answers <span id="incorrect">0</span></p>
