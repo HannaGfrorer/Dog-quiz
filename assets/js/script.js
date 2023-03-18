@@ -1,70 +1,115 @@
-function runGame(gameType) {
+//images
+var i = 0;
+var images = [];
+var slideTime = 5000; // 5 seconds
 
-    document.getElementById("question");
-   
+//questions and answers
+var questionData = [{
+        question: "What is the most popular dog breed?",
+        a: "French bulldog",
+        b: "Labrador retriver",
+        c: "Chihuahua",
+        correctAnswer: "B"
+    },
+    {
+        question: "'Which dog is the smartest?",
+        a: "Labrador retriever",
+        b: "Poodel",
+        c: "Border collien",
+        correctAnswer: "c"
+    },
+    {
+        question: "'How old does a dog get on average?",
+        a: "10-20 years",
+        b: "7-10 years",
+        c: "10-13 years",
+        correctAnswer: "c"
+    },
+    {
+        question: "What was the gift Galadriel gave to Frodo?",
+        a: "A sword",
+        b: "A starlight",
+        c: "A strand of her hair",
+        correctAnswer: "c"
 
-    // questions//
-    let insertQuestion = document.getElementById("question");
-    let altOne = getElementById("alternativ-one");
-    let alttwo = getElementById("alternativ-two");
-    let altthree = getElementById("alternativ-three");
-    let newImage = document.getElementById("image-source");
-
-}
-
-/**
- * My questions and answers list
- */
-const myQuestions = [{
-    question: `What is the most popular dog breed??`,
-    answers: [
-        { text: 'French bulldog', correct: false },
-        { text: 'Labrador retriever', correct: true },
-        { text: 'Chihuahua', correct: false },
-    ],
-    image: '', 
-},
-{
-    question: 'Which dog is the smartest?',
-    answers: [
-        {text: 'Labrador retriever', correct: false},
-        {text: 'Poodle', correct: false}, 
-        {text: 'Border collien', correct: true}
-    ],
-    image: '', 
-},
-{
-    question: 'How old does a dog get on average?',
-    answers: [
-        {text: '10-20 years', correct: false},
-        {text: '7-10 years', correct: false},
-        {text: '10-13 years', correct: true}
-    ],
-    image: '', 
-},
-{
-    question: 'How many teeth does a dog have?',
-    answers: [
-        {text: '42', correct: true}, 
-        {text: '25', correct: false},
-        {text: '48', correct: false}, 
+    },
+    {
+        question: "How many teeth does a dog have",
+        a: "42",
+        b: "25",
+        c: "48",
+        correctAnswer: "A"
+    },
+    {
+        question: "'The famous cartoon dog Snoopy is on the roof of his doghouse most of the time. What race is the Snoopy?",
+        a: "Bloodhound",
+        b: "Dalmatians",
+        c: "Beagle",
+        correctAnswer: "c"
+    },
     
-    ],
-    image: '', 
-}, 
-{
-    question: 'The famous cartoon dog Snobben is on the roof of his doghouse most of the time. What race is the Snob?',
-    answers: [
-        {text: 'Bloodhound', correct: false}, 
-        {text: 'Dalmatians', correct: false},
-        {text: 'Beagle', correct: true},
-      
-    ],
-    image: '', 
-    
-}
 ];
 
+const quiz = document.getElementById('quiz');
+const answers = document.querySelectorAll('.answer');
+const questionP = document.getElementById('question');
+const aText = document.getElementById('a-text');
+const bText = document.getElementById('b-text');
+const cText = document.getElementById('c-text');
+const submitButton = document.getElementById('submit');
 
 
-/**
+let currentQuiz = 0;
+let score = 0;
+//start quiz function
+function startQuiz() {
+    deselectAnswer();
+    const currentQuizData = questionData[currentQuiz];
+
+    questionP.innerText = currentQuizData.question;
+    aText.innerText = currentQuizData.a;
+    bText.innerText = currentQuizData.b;
+    cText.innerText = currentQuizData.c;
+}
+
+function deselectAnswer() {
+    answers.forEach(answers => answers.checked = false);
+}
+
+function getSelected() {
+    let answer;
+    answers.forEach(answers => {
+        if (answers.checked) {
+            answer = answers.id;
+        }
+    });
+
+    return answer;
+}
+
+submitButton.addEventListener('click', () => {
+    const answer = getSelected();
+    if (answer === questionData[currentQuiz].correctAnswer) {
+        score++;
+    }
+    currentQuiz++;
+    if (currentQuiz < questionData.length) {
+        startQuiz();
+    } else {
+        quiz.innerHTML = `<h2>You answered ${score}/${questionData.length} questions correctly</h2>
+            <button onclick="location.reload()">Reload</button>`;
+    }
+});
+
+function changePicture() {
+    document.body.style.backgroundImage = "url(" + images[i] + ")";
+
+    if (i < images.length - 1) {
+        i++;
+    } else {
+        i = 0;
+    }
+    setTimeout(changePicture, slideTime);
+}
+startQuiz();
+window.onload = changePicture;

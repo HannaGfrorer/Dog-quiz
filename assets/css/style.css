@@ -47,7 +47,7 @@ p {
 }
 
 /* --------- Game layout */
-.game-area {
+.quiz-section {
     background-color: #E6ECF0;
     box-sizing: border-box;
     width: 85%;
@@ -59,12 +59,66 @@ p {
     padding: 1%;
 }
 
-.question-area {
+.quiz-area {
     width: 50%;
     font-size: 2rem;
     margin: auto;
     padding: 50px 0;
 }
+
+/*Question styling*/
+.question {
+    font-weight: 600;
+    font-size: 2rem;
+    font-family: s;
+}
+
+.answers {
+    margin-bottom: 20px;
+    line-height: 5%;
+    font-family: 'MedievalSharp', 'Bilbo';
+}
+
+button:hover {
+    background-color: antiquewhite;
+    color: darkslategray;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 1.5rem;
+    margin: 3%;
+}
+
+ul li label {
+    cursor: pointer;
+    margin: 2%;
+    font-size: 2.5rem;
+}
+
+button {
+    background-color: antiquewhite;
+    color: darkgreen;
+    border: none;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    font-size: 1.5rem;
+    padding: 2rem;
+    border-radius: inherit;
+    font-family: 'MedievalSharp';
+}
+
+button:hover {
+    background-color: beige;
+}
+
+
+
 
 #question {}
 

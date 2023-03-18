@@ -3,47 +3,44 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- font awesome and google fonts -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
-        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-        <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap" rel="stylesheet">
-
-
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>Dog Quiz</title>
+    <meta name="description" content="Dog quiz">
+    <meta name="keywords" content="Dog quiz">
+    <link rel="stylesheet" href="assets/css/stylesheet.css">
+    <link rel='shortcut icon' type='image/x-icon' href='favicon.ico'>
+    <title>HUnd quiz</title>
 </head>
-
-<body>
-    <h1 class="heading">
-        <img class="logo" src="assets/images/doglogo.jpg" alt="logo"> Are you ready to se how mutch you know about dogs?
-    </h1>
-
-    <div class="game-area">
-        <div class="question-area">
-            <img class="logo" src="assets/images/flowerdog.jpg" alt="dog whit flower"> 
-            <p id="question"></p>
-            <p id="alternativ-one"></p>
-            <p id="alternativ-two"></p>
-            <p id="alternativ-three"></p>
-            <div id="imag-source"></div>
-            <div id="dog-picture"></div> i html-koden, och lägger till hela <img src="assets/images/chiwawa.jpg">
+<body id="slide">
+    <header>
+        <h1 id="logo">How much do you know about dogs?</h1>
+        <nav id="menu-bar">
+            <img src="assets/images/doglogo.jpg" alt="doglogo">
+            <a href="index.html" class="active"><i class="fa-brands fa-envira"></i>Go back<i
+                    class="fa-brands fa-envira"></i></a>
+        </nav>
+    </header>
+    <div class="quiz-section" id="quiz">
+        <div id="quiz-head">
+            <h2 id="question"> Question</h2>
+            <ul>
+                <li>
+                    <input type="radio" name="answer" id="a" class="answer">
+                    <label for="a" id="a-text"></label>
+                </li>
+                <li>
+                    <input type="radio" name="answer" id="b" class="answer">
+                    <label for="b" id="b-text"></label>
+                </li>
+                <li>
+                    <input type="radio" name="answer" id="c" class="answer">
+                    <label for="c" id="c-text"></label>
+                </li>
+            </ul>
         </div>
-        
-        <button data-type="submit" class="btn btn--gray">Submit Answer</button>
+        <button id="submit">Submit</button>
     </div>
-    <div id="control-score">
-        <div class="controls">
-            <button id="start-btn" class="start-btn btn font">Start</button>
-            <button id="next-btn" class="next-btn btn hidden font">Next</button>
-        </div>
-    <div class="score-area">
-        <p class="scores">Correct Answers <span id="score">0</span></p>
-        <p class="scores">Incorrect Answers <span id="incorrect">0</span></p>
-    </div>
-
     <script src="assets/js/script.js"></script>
+    <script src="https://kit.fontawesome.com/205330c142.js" crossorigin="anonymous"></script>
 </body>
-
 </html>
