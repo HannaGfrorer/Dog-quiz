@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -11,6 +12,36 @@ body {
     text-align: center;
 }
 
+/* navigation links */
+
+#menu {
+    margin-right: 20px;
+}
+
+#menu li {
+    font-size: 1.2vw;
+    float: right;
+    list-style-type: none;
+    margin-right: 40px;
+}
+
+#menu, #logo {
+    line-height: 75px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #D4A373;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #464545;
+}
+
+.active {
+    border-bottom: 1px solid #FAEDCD;
+}
+
 /* header and logo */
 
 header {
@@ -21,7 +52,6 @@ header {
     position: fixed;
     z-index: 5;
 }
-
 #logo {
     float: left;
     margin-left: 20px;
@@ -29,6 +59,33 @@ header {
     width: 10%;
 }
 
+/* doglogo image section*/
+
+#doglogo-image-section {
+    height: auto;
+    width: 100%;
+    margin-top: 80px;
+    overflow: hidden;
+    position: relative;
+}
+#doglogo {
+    height: auto;
+    width: 100vw;
+    position: relative;
+
+}
+#doglogo-image-text {
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+    top: 10px;
+    position: absolute;
+}
+
+#doglogo-image-text h1 {
+    font-size: 3.4vw;
+    color: #464545;
+}
 .heading {
     text-align: center;
     font-size: 2.5rem;
