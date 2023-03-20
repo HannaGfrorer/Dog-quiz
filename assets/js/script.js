@@ -8,14 +8,14 @@ var questionData = [{
         correctAnswer: "B"
     },
     {
-        question: "'Which dog is the smartest?",
+        question: "Which dog is the smartest?",
         a: "Labrador retriever",
         b: "Poodel",
         c: "Border collien",
         correctAnswer: "c"
     },
     {
-        question: "'How old does a dog get on average?",
+        question: "How old does a dog get on average?",
         a: "10-20 years",
         b: "7-10 years",
         c: "10-13 years",
@@ -37,7 +37,7 @@ var questionData = [{
         correctAnswer: "A"
     },
     {
-        question: "'The famous cartoon dog Snoopy is on the roof of his doghouse most of the time. What race is the Snoopy?",
+        question: "The famous cartoon dog Snoopy is on the roof of his doghouse most of the time. What race is the Snoopy?",
         a: "Bloodhound",
         b: "Dalmatians",
         c: "Beagle",
@@ -54,6 +54,16 @@ const bText = document.getElementById('b-text');
 const cText = document.getElementById('c-text');
 const submitButton = document.getElementById('submit');
 
+var count = 40;
+var interval = setInterval(function () {
+    document.getElementById('count').innerHTML = count;
+    count--;
+    if (count === 0) {
+        clearInterval(interval);
+        document.getElementById('count').innerHTML = 'Done';
+    }
+
+}, 1000);
 
 let currentQuiz = 0;
 let score = 0;

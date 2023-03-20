@@ -1,62 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap');
 * {
+    border: 0;
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    border: none;
 }
 
 body {
     background-color: white;
-    font-family: "Raleway", sans-serif;
+    font-family: "Nunito+Sans", sans-serif;
     color: #445361;
     text-align: center;
-}
-
-/* navigation links */
-
-#menu {
-    margin-right: 20px;
-}
-
-#menu li {
-    font-size: 1.2vw;
-    float: right;
-    list-style-type: none;
-    margin-right: 40px;
-}
-
-#menu, #logo {
-    line-height: 75px;
-}
-
-#menu a {
-    text-decoration: none;
-    color: #D4A373;
-}
-
-#menu a:hover {
-    border-bottom: 1px solid #464545;
-}
-
-.active {
-    border-bottom: 1px solid #FAEDCD;
-}
-
-/* header and logo */
-
-header {
-    background-color: #FAEDCD;
-    height: 50px;
-    width: 100%;
-    margin-top: -80px;
-    position: fixed;
-    z-index: 5;
-}
-#logo {
-    float: left;
-    margin-left: 20px;
-    height: auto;
-    width: 10%;
 }
 
 /* doglogo image section*/
@@ -66,7 +20,7 @@ header {
     width: 100%;
     margin-top: 80px;
     overflow: hidden;
-    position: relative;
+   
 }
 #doglogo {
     height: auto;
@@ -86,12 +40,17 @@ header {
     font-size: 2.4vw;
     color: #464545;
 }
+
+#doglogo-image-text h2 {
+    font-size: 1.4vw;
+    color: #464545;
+}
 .heading {
     text-align: center;
     font-size: 2.5rem;
 }
 
-h1 {
+h1, h2 {
     font-weight: 800;
     font-size: 260%;
     letter-spacing: 2px;
@@ -105,15 +64,17 @@ p {
 
 /* --------- Game layout */
 .quiz-section {
-    background-color: #E6ECF0;
-    box-sizing: border-box;
-    width: 85%;
-    height: 65vh;
-    max-height: 450px;
-    max-width: 830px;
+    background-color: rgb(182, 201, 182);
+    border-radius: 20px;
+    box-shadow: 5px 2px;
+    width: 800px;
     margin-left: auto;
     margin-right: auto;
-    padding: 1%;
+
+    padding: 2%;
+}
+#quis-head {
+    padding: 2%;
 }
 
 .quiz-area {
@@ -173,23 +134,6 @@ button {
 button:hover {
     background-color: beige;
 }
-
-
-
-
-#question {}
-
-#alternativ-one {}
-
-#alternativ-two{}
-
-#alternativ-three{}
-
-#imag-source {}
-
-#dog-picture{}
-
-
 
 
 /* --------- Buttons */
