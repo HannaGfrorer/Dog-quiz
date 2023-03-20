@@ -22,14 +22,6 @@ var questionData = [{
         correctAnswer: "c"
     },
     {
-        question: "What was the gift Galadriel gave to Frodo?",
-        a: "A sword",
-        b: "A starlight",
-        c: "A strand of her hair",
-        correctAnswer: "c"
-
-    },
-    {
         question: "How many teeth does a dog have",
         a: "42",
         b: "25",
@@ -70,26 +62,6 @@ var interval = setInterval(function () {
 
 let currentQuiz = 0;
 let score = 0;
-/**
- * Gets the current score from the DOM and increments it by 1
- */
-function incrementScore() {
-
-    let oldScore = parseInt(document.getElementById("score").innerText);
-    document.getElementById("score").innerText = ++oldScore;
-
-}
-
-/**
- * Gets the current tally of incorrect answers from the DOM and increments it by 1
- */
-function incrementWrongAnswer() {
-
-    let oldScore = parseInt(document.getElementById("incorrect").innerText);
-    document.getElementById("incorrect").innerText = ++oldScore;
-    
-}
-
 
 //start quiz function
 function startQuiz() {
