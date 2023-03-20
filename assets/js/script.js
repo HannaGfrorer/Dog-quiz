@@ -1,9 +1,5 @@
-//images
-var i = 0;
-var images = [];
-var slideTime = 5000; // 5 seconds
 
-//questions and answers
+//quqestions and answers
 var questionData = [{
         question: "What is the most popular dog breed?",
         a: "French bulldog",
@@ -61,6 +57,7 @@ const submitButton = document.getElementById('submit');
 
 let currentQuiz = 0;
 let score = 0;
+
 //start quiz function
 function startQuiz() {
     deselectAnswer();
