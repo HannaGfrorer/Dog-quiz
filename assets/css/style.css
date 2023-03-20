@@ -162,7 +162,7 @@ button:hover {
     }
     
     /* -- Mobilanpassad design -- */
-    @media screen and (max-width: 480px) and (max-width: 1000px) {
+    @media screen and (min-width: 480px) and (max-width: 1000px) {
         body {width:100%;}
 
         header {
@@ -226,5 +226,70 @@ button:hover {
             transform: scale(1.5);
         }
     }
+    @media screen and (min-width: 0px) and (max-width: 480px) {
 
     
+    body {width:100%;}
+
+        header {
+            width: 80%;
+        }
+        
+        h2 {
+        font-size: 1.6rem;
+    }
+        #logo {
+            font-size: 1.5rem;
+            top: 8%;
+        }
+
+        #welcome {
+            font-size: 4.5rem;
+            left: 20px;
+        }
+        #start {
+            font-size: 1rem;
+        }
+
+        button {
+            font-size: 2rem;
+        }
+
+        #menu-bar a {
+            font-size: 1.4rem;
+        top: -10%;
+        }
+
+        /*quis page*/
+        .quiz-section {
+            top: 5%;
+        width: 95%;
+        }
+        #quis-head {
+            width: 100%;
+        }
+        .question {
+            width: 100%;
+        }
+        .answers {
+            width: 100%;
+        }
+        #count {
+            font-size: 2.5rem;
+        }
+    
+        button {
+            font-size: 1,5rem;
+        }
+    
+        #menu-bar a {
+            font-size: 2rem;
+        }
+        ul li label {
+            font-size: 1.5rem;
+        }
+    
+        input[type='radio'] {
+            transform: scale(1.5);
+        }
+    }
