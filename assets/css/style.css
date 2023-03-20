@@ -5,7 +5,6 @@
     margin: 0;
     padding: 0;
 }
-
 body {
     background-color: #FEFEFE;
     font-family: "Nunito+Sans", sans-serif;
@@ -13,7 +12,6 @@ body {
     text-align: center;
 }
 /*home page styling*/
-
 #welcome {
     padding: 1%;
     height: 5vh;
@@ -36,7 +34,6 @@ body {
     box-shadow: 2px 1px;
 }
 /* doglogo image section*/
-
 #doglogo-image-section {
     height: auto;
     width: 100%;
@@ -48,7 +45,6 @@ body {
     height: auto;
     width: 75vw;
     position: relative;
-
 }
 #doglogo-image-text {
     text-transform: uppercase;
@@ -57,12 +53,10 @@ body {
     top: 10px;
     position: absolute;
 }
-
 #doglogo-image-text h1 {
     font-size: 2.4vw;
     color: #473A37;
 }
-
 #doglogo-image-text h2 {
     font-size: 1.4vw;
     color: #473A37;
@@ -71,19 +65,16 @@ body {
     text-align: center;
     font-size: 2.5rem;
 }
-
 h1, h2 {
     font-weight: 800;
     font-size: 260%;
     letter-spacing: 2px;
 }
-
 p {
     letter-spacing: 1px;
     font-size: 1.2vw;
     color: #342A29;
 }
-
 /* --------- Game layout */
 .quiz-section {
     background-color: #D8D1CC;
@@ -97,60 +88,51 @@ p {
 #quis-head {
     padding: 2%;
 }
-
 .quiz-area {
     width: 50%;
     font-size: 2rem;
     margin: auto;
     padding: 50px 0;
 }
-
 /*Question styling*/
 .question {
     font-weight: 600;
     font-size: 2rem;
-    font-family: s;
+    font-family: "Nunito+Sans", sans-serif;
 }
-
 .answers {
     margin-bottom: 20px;
     line-height: 5%;
     font-family: "Nunito+Sans", sans-serif;
 }
-
 ul {
     list-style-type: none;
     padding: 0;
 }
-
 ul li {
     font-size: 1.5rem;
     margin: 3%;
 }
-
 ul li label {
     cursor: pointer;
     margin: 2%;
     font-size: 2.5rem;
 }
-
 button {
     background-color: #D8D1CC;
     color: #6F4121;
     border: none;
     display: block;
-    width: 100%;
+    width: 15%;
     cursor: pointer;
     font-size: 1.5rem;
     padding: 2rem;
     border-radius: inherit;
     font-family: "Nunito+Sans", sans-serif; 
 }
-
 button:hover {
     background-color: #FEFEFE;
 }
-
  .score-area {
         margin: 5px auto;
         width: 60%;
@@ -161,3 +143,4 @@ button:hover {
         width: 85%;
         margin: 30px auto;
     }
+    
