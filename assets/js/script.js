@@ -54,6 +54,9 @@ const bText = document.getElementById('b-text');
 const cText = document.getElementById('c-text');
 const submitButton = document.getElementById('submit');
 
+
+
+// counter
 var count = 40;
 var interval = setInterval(function () {
     document.getElementById('count').innerHTML = count;
@@ -67,6 +70,26 @@ var interval = setInterval(function () {
 
 let currentQuiz = 0;
 let score = 0;
+/**
+ * Gets the current score from the DOM and increments it by 1
+ */
+function incrementScore() {
+
+    let oldScore = parseInt(document.getElementById("score").innerText);
+    document.getElementById("score").innerText = ++oldScore;
+
+}
+
+/**
+ * Gets the current tally of incorrect answers from the DOM and increments it by 1
+ */
+function incrementWrongAnswer() {
+
+    let oldScore = parseInt(document.getElementById("incorrect").innerText);
+    document.getElementById("incorrect").innerText = ++oldScore;
+    
+}
+
 
 //start quiz function
 function startQuiz() {
@@ -106,17 +129,7 @@ submitButton.addEventListener('click', () => {
         quiz.innerHTML = `<h2>You answered ${score}/${questionData.length} questions correctly</h2>
             <button onclick="location.reload()">Reload</button>`;
     }
+    
 });
-
-function changePicture() {
-    document.body.style.backgroundImage = "url(" + images[i] + ")";
-
-    if (i < images.length - 1) {
-        i++;
-    } else {
-        i = 0;
-    }
-    setTimeout(changePicture, slideTime);
-}
 startQuiz();
 window.onload = changePicture;

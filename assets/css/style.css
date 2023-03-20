@@ -7,9 +7,9 @@
 }
 
 body {
-    background-color: white;
+    background-color: #FEFEFE;
     font-family: "Nunito+Sans", sans-serif;
-    color: #445361;
+    color: #473A37;
     text-align: center;
 }
 
@@ -38,12 +38,12 @@ body {
 
 #doglogo-image-text h1 {
     font-size: 2.4vw;
-    color: #464545;
+    color: #473A37;
 }
 
 #doglogo-image-text h2 {
     font-size: 1.4vw;
-    color: #464545;
+    color: #473A37;
 }
 .heading {
     text-align: center;
@@ -59,12 +59,12 @@ h1, h2 {
 p {
     letter-spacing: 1px;
     font-size: 1.2vw;
-    color: #3a3a3a;
+    color: #342A29;
 }
 
 /* --------- Game layout */
 .quiz-section {
-    background-color: rgb(182, 201, 182);
+    background-color: #D8D1CC;
     border-radius: 20px;
     box-shadow: 5px 2px;
     width: 800px;
@@ -94,12 +94,12 @@ p {
 .answers {
     margin-bottom: 20px;
     line-height: 5%;
-    font-family: 'MedievalSharp', 'Bilbo';
+    font-family: "Nunito+Sans", sans-serif;
 }
 
 button:hover {
-    background-color: antiquewhite;
-    color: darkslategray;
+    background-color: #D8D1CC;
+    color: #6F4121;
 }
 
 ul {
@@ -119,8 +119,8 @@ ul li label {
 }
 
 button {
-    background-color: antiquewhite;
-    color: darkgreen;
+    background-color: #FEFEFE;
+    color: #6F4121;
     border: none;
     display: block;
     width: 100%;
@@ -128,66 +128,12 @@ button {
     font-size: 1.5rem;
     padding: 2rem;
     border-radius: inherit;
-    font-family: 'MedievalSharp';
+    font-family: "Nunito+Sans", sans-serif; 
 }
 
 button:hover {
     background-color: beige;
 }
-
-
-/* --------- Buttons */
-
-.btn btn--gray {
-    color: #597305;
-        text-align: center;
-        font-size: 100%;
-        background-color: #3f4705;
-        border-radius: 2px;
-        margin-top: 20px;
-        padding: 10px;
-}
-
-#start-btn {
-    color: #4f6507;
-        text-align: center;
-        font-size: 100%;
-        background-color: #4a520e;
-        border-radius: 2px;
-        margin-top: 20px;
-        padding: 10px;
-}
-
-.start-btn {
-    color: #222c03;
-        text-align: center;
-        font-size: 100%;
-        background-color: #2b3005;
-        border-radius: 2px;
-        margin-top: 20px;
-        padding: 10px;
-}
-
-#next-btn {
-    color: #1c2403;
-        text-align: center;
-        font-size: 100%;
-        background-color: #272c03;
-        border-radius: 2px;
-        margin-top: 20px;
-        padding: 10px;
-}
-
-.next-btn {
-        color: #151b02;
-        text-align: center;
-        font-size: 100%;
-        background-color: #34390c;
-        border-radius: 2px;
-        margin-top: 20px;
-        padding: 10px;
-    }
-
 
  .score-area {
         margin: 5px auto;
@@ -212,11 +158,11 @@ button:hover {
 }
 
 #score {
-    color: green;
+    color: #342A29;
     font-weight: bold;
 }
 
 #incorrect{
-    color: red;
+    color: #342A29;
     font-weight: bold;
 }
