@@ -34,6 +34,25 @@ body {
     box-shadow: 2px 1px;
 }
 /* doglogo image section*/
+#logo {
+    position: relative;
+    font-size: 2rem;
+}
+
+#menu-bar a {
+    position: relative;
+    font-size: 1.5rem;
+    color: #342A29;
+    text-decoration: none;
+    display: flex;
+    justify-content: right;
+}
+
+#menu-bar a:hover {
+    color: #473A37;
+    background: transparent;
+    text-decoration: underline;
+}
 #doglogo-image-section {
     height: auto;
     width: 100%;
@@ -50,13 +69,11 @@ body {
     text-transform: uppercase;
     text-align: center;
     width: 100%;
-    top: 10px;
+    top: 30px;
     position: absolute;
 }
-#doglogo-image-text h1 {
-    font-size: 2.4vw;
-    color: #473A37;
-}
+
+
 #doglogo-image-text h2 {
     font-size: 1.4vw;
     color: #473A37;
@@ -65,7 +82,7 @@ body {
     text-align: center;
     font-size: 2.5rem;
 }
-h1, h2 {
+h2 {
     font-weight: 800;
     font-size: 260%;
     letter-spacing: 2px;
