@@ -12,7 +12,29 @@ body {
     color: #473A37;
     text-align: center;
 }
+/*home page styling*/
 
+#welcome {
+    padding: 1%;
+    height: 5vh;
+    font-family: "Nunito+Sans", sans-serif;
+    font-weight: 200;
+    color: #473A37;
+    text-align: center;
+}
+#start {
+    font-family: "Nunito+Sans", sans-serif;
+    width: auto;
+    height: auto;
+    border: 1px solid #342A29;
+    position: relative;
+    left: 65%;
+    font-size: 2.5rem;
+    border-radius: 10%;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 2px 1px;
+}
 /* doglogo image section*/
 
 #doglogo-image-section {
@@ -96,11 +118,6 @@ p {
     font-family: "Nunito+Sans", sans-serif;
 }
 
-button:hover {
-    background-color: #D8D1CC;
-    color: #6F4121;
-}
-
 ul {
     list-style-type: none;
     padding: 0;
@@ -118,7 +135,7 @@ ul li label {
 }
 
 button {
-    background-color: #FEFEFE;
+    background-color: #D8D1CC;
     color: #6F4121;
     border: none;
     display: block;
@@ -131,7 +148,7 @@ button {
 }
 
 button:hover {
-    background-color: beige;
+    background-color: #FEFEFE;
 }
 
  .score-area {
@@ -144,18 +161,3 @@ button:hover {
         width: 85%;
         margin: 30px auto;
     }
-
-.scores{
-    display: inline-block;
-    padding: 25px;
-}
-
-#score {
-    color: #342A29;
-    font-weight: bold;
-}
-
-#incorrect{
-    color: #342A29;
-    font-weight: bold;
-}
