@@ -35,6 +35,13 @@ var questionData = [{
         c: "Beagle",
         correctAnswer: "c"
     },
+    {
+        question: "Which dog breed is the fastest?",
+        a: "Greyhounds",
+        b: "Dalmatians",
+        c: "Poodel",
+        correctAnswer: "a"
+    },
     
 ];
 
@@ -104,4 +111,4 @@ submitButton.addEventListener('click', () => {
     
 });
 startQuiz();
-window.onload = changePicture;
+
