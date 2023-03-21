@@ -144,6 +144,13 @@ p {
     line-height: 5%;
     font-family: "Nunito+Sans", sans-serif;
 }
+.red {
+    color: #FF0000;
+}
+
+.green {
+    color: #008000;
+}
 
 button:hover {
     background-color: #FEFEFE;
@@ -180,6 +187,14 @@ button {
 
 button:hover {
     background-color: #FEFEFE;
+}
+
+.btn:active {
+    box-shadow: none;
+}
+
+.action-btn {
+    display: none;
 }
 
  .score-area {
