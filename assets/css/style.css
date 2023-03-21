@@ -5,12 +5,14 @@
     margin: 0;
     padding: 0;
 }
+
 body {
     background-color: #FEFEFE;
     font-family: "Nunito+Sans", sans-serif;
     color: #473A37;
     text-align: center;
 }
+
 /*home page styling*/
 #welcome {
     padding: 1%;
@@ -20,6 +22,7 @@ body {
     color: #473A37;
     text-align: center;
 }
+
 #start {
     font-family: "Nunito+Sans", sans-serif;
     width: auto;
@@ -34,12 +37,14 @@ body {
     text-align: center;
     box-shadow: 2px 1px;
 }
+
 #dogbigear {
     height: auto;
     width: 40%;
     margin-top: 10px;
     overflow: hidden;
 }
+
 /* doglogo image section*/
 #logo {
     position: relative;
@@ -60,6 +65,7 @@ body {
     background: transparent;
     text-decoration: underline;
 }
+
 #doglogo-image-section {
     height: auto;
     width: 100%;
@@ -67,11 +73,13 @@ body {
     overflow: hidden;
    
 }
+
 #doglogo {
     height: auto;
     width: 75vw;
     position: relative;
 }
+
 #doglogo-image-text {
     text-transform: uppercase;
     text-align: center;
@@ -80,25 +88,28 @@ body {
     position: absolute;
 }
 
-
 #doglogo-image-text h2 {
     font-size: 1.4vw;
     color: #473A37;
 }
+
 .heading {
     text-align: center;
     font-size: 2.5rem;
 }
+
 h2 {
     font-weight: 800;
     font-size: 260%;
     letter-spacing: 2px;
 }
+
 p {
     letter-spacing: 1px;
     font-size: 1.2vw;
     color: #342A29;
 }
+
 /* --------- quiz layout */
 .quiz-section {
     background-color: #D8D1CC;
@@ -109,43 +120,52 @@ p {
     margin-right: auto;
     padding: 0%;
 }
+
 #quis-head {
     padding: 2%;
 }
+
 .quiz-area {
     width: 50%;
     font-size: 2rem;
     margin: auto;
     padding: 50px 0;
 }
+
 /*Question styling*/
 .question {
     font-weight: 600;
     font-size: 2rem;
     font-family: "Nunito+Sans", sans-serif;
 }
+
 .answers {
     margin-bottom: 20px;
     line-height: 5%;
     font-family: "Nunito+Sans", sans-serif;
 }
+
 button:hover {
     background-color: #FEFEFE;
     color: #473A37;
 }
+
 ul {
     list-style-type: none;
     padding: 0;
 }
+
 ul li {
     font-size: 1.5rem;
     margin: 3%;
 }
+
 ul li label {
     cursor: pointer;
     margin: 2%;
     font-size: 2.5rem;
 }
+
 button {
     background-color: #D8D1CC;
     color: #6F4121;
@@ -157,6 +177,7 @@ button {
     border-radius: inherit;
     font-family: "Nunito+Sans", sans-serif; 
 }
+
 button:hover {
     background-color: #FEFEFE;
 }
@@ -218,15 +239,19 @@ button:hover {
         .quiz-section {
             width: 100%;
         }
+
         #quis-head {
             width: 100%;
         }
+
         .question {
             width: 100%;
         }
+
         .answers {
             width: 100%;
         }
+
         #count {
             font-size: 2.5rem;
         }
@@ -243,16 +268,19 @@ button:hover {
             transform: scale(1.5);
         }
     }
+
     @media screen and (min-width: 0px) and (max-width: 480px) {
 
         #welcome {
             font-size: 2rem;
             width: 100%;
         }
+
         #start {
             font-size: 1rem;
             left: 70%;
         }
+
         #logo {
             font-size: 1.3rem;
            
@@ -266,6 +294,7 @@ button:hover {
             font-size: 1.2rem;
         top: 6%;
         }
+
         h2 {
             font-size: 1.3rem;
         }
@@ -294,7 +323,6 @@ button:hover {
             top: 6%;
         }
        
-    
         input[type='radio'] {
             transform: scale(1.4);
         }

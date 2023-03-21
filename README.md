@@ -3,7 +3,6 @@
 <img width="950" alt="dogbigear" src="assets/images/webpage.png">
 
 This website was designed to test the knowledge of people who enjoy dogs. It starts with a splash page that continues to the quiz on the next page, which includes a timer that counts down from 40 seconds and a score total at the end of the questions. The quiz page also has a hero image with a picture of different dogs.
-img
 
 The home page shows a question and a button to "Start Quiz". The second page contains a header and then a box containing the question and a list of multiple choice questions with radio style buttons. At the top of the quiz is a timer that counts down, adding a little more pressure to answer questions!
 
@@ -44,7 +43,7 @@ https://hannagfrorer.github.io/Dog-quiz/
  * To have fun.
  
  ## Design 
-As this is my first project with javascript, I have been inspired by: https://jodymurray.github.io/quiz/ and https://lizac9.github.io/project2-bn-horror-film/
+As this is my first project with javascript, I have been inspired by: https://jodymurray.github.io/quiz/ and https://lizac9.github.io/project2-bn-horror-film/ and my prodjekt in HTLM and CSS (cooking courses online)
 The purpose of this website is to create a good looking website with an appealing color scheme, my colors were chosen to match the images and were made in colors: https://coolors.co/
 <img width="860" alt="colors" src="assets/images/colors.png">
 
@@ -73,7 +72,7 @@ The images have been selected according to the question topic The purpose of the
 <img width="860" alt="dogbigear.jpg" src="assets/images/dogbigear.jpg">
 
 # Quiz Header
-- The title of the quiz contains the question How much do you know about dogs? Take this quiz and you'll see, t. It also has a "Go back" button and leaf icons on both sides.
+- The title of the quiz contains the question How much do you know about dogs? Take this quiz and you'll see, t. It also has a "Go back" button and a paw on the left side.
 <img width="760" alt="" src="assets/images/howdog.png">
 - The picture on the quiz page is a picture with 6 different dogs standing, sitting and lying down, they also look in different directions and are taken from: https://www.istockphoto.com/se
 <img width="760" alt="" src="assets/images/doglogo.jpg">
@@ -121,8 +120,8 @@ The following is the bugs I came across:
  - Solution; change padding in button and change padding, width and margin in quiz-section.
 2.The Timer on the Quiz page carries on to finish and then says "Done" and doesn't reset automatically. 
  -  Solution; The timer resets once the 'Reload' button is clicked.
-3. The font awsom dont work on the quiz-page.
--solution;
+3. The font awsom don't work on the quiz-page.
+-solution; Add the script of fontawsom in the head of the quiz.html.
 
 
 # Deployment 

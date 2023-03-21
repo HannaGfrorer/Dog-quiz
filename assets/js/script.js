@@ -1,4 +1,3 @@
-
 //quqestions and answers
 var questionData = [{
         question: "What is the most popular dog breed?",
@@ -42,7 +41,7 @@ var questionData = [{
         c: "Poodel",
         correctAnswer: "a"
     },
-    
+
 ];
 
 const quiz = document.getElementById('quiz');
@@ -52,8 +51,6 @@ const aText = document.getElementById('a-text');
 const bText = document.getElementById('b-text');
 const cText = document.getElementById('c-text');
 const submitButton = document.getElementById('submit');
-
-
 
 // counter
 var count = 40;
@@ -108,7 +105,6 @@ submitButton.addEventListener('click', () => {
         quiz.innerHTML = `<h2>You answered ${score}/${questionData.length} questions correctly</h2>
             <button onclick="location.reload()">Reload</button>`;
     }
-    
+
 });
 startQuiz();
-
