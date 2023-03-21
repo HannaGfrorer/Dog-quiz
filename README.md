@@ -1,6 +1,6 @@
 # quiz-project2
 
-<img width="1421" alt="dogbigear" src="assets/images/dogbigear.jpg">
+<img width="950" alt="dogbigear" src="assets/images/webpage.png">
 
 This website was designed to test the knowledge of people who enjoy dogs. It starts with a splash page that continues to the quiz on the next page, which includes a timer that counts down from 40 seconds and a score total at the end of the questions. The quiz page also has a hero image with a picture of different dogs.
 img
@@ -46,7 +46,7 @@ https://hannagfrorer.github.io/Dog-quiz/
  ## Design 
 As this is my first project with javascript, I have been inspired by: https://jodymurray.github.io/quiz/ and https://lizac9.github.io/project2-bn-horror-film/
 The purpose of this website is to create a good looking website with an appealing color scheme, my colors were chosen to match the images and were made in colors: https://coolors.co/
-<img width="1421" alt="colors" src="assets/images/colors.png">
+<img width="860" alt="colors" src="assets/images/colors.png">
 
 This website is two pages, Index.html contains a button stating "Start Quiz", which when clicked will take you to the quiz page: quiz.html. The second link is under the quiz page header with "Go back", which will take you back to the start quiz on the home page.
 
@@ -70,23 +70,24 @@ The images have been selected according to the question topic The purpose of the
 - The start page consists of the question: Are you a dog person? As well as a button with the text "Begin quiz", which takes you to the quiz page.
 - The picture on the home page is a dog with big flapping ears taken from: https://www.istockphoto.com/se
 
-<img width="1440" alt="dogbigear.jpg" src="assets/images/dogbigear.jpg">
+<img width="860" alt="dogbigear.jpg" src="assets/images/dogbigear.jpg">
 
 # Quiz Header
 - The title of the quiz contains the question How much do you know about dogs? Take this quiz and you'll see, t. It also has a "Go back" button and leaf icons on both sides.
+<img width="760" alt="" src="assets/images/howdog.png">
 - The picture on the quiz page is a picture with 6 different dogs standing, sitting and lying down, they also look in different directions and are taken from: https://www.istockphoto.com/se
+<img width="760" alt="" src="assets/images/doglogo.jpg">
 
-<img width="1356" alt="" src="">
 
 # Quiz Section
 - The quiz section is a light-coloured box with the question, a timer, three possible answers to each question and radio buttons to mark the answers.
 - It also features a next button which takes you to the next question.
 
-<img width="1382" alt="" src="">
+<img width="760" alt="" src="assets/images/question.png">
 
 - The end of the quiz shows us the amount of questions we answered correctly out of 6 questions. And it also includes a 'Reload' button which will bring you to the first question again and it will reset the timer for you to try the quiz again! 
 
-<img width="1340" alt="" src="">
+<img width="760" alt="" src="assets/images/relode.png">
 
 # Technologies Used 
 - HTML
@@ -98,31 +99,31 @@ The images have been selected according to the question topic The purpose of the
 ## Validator testing 
 - HTML
   - No errors were found using W3C HTML validator testing.
-<img width="1392" alt="" src="">
-<img width="1430" alt="" src="">
+<img width="1392" alt="" src="assets/images/Htmlcheker.png">
+<img width="1430" alt="" src="assets/images/htmlcheker2.png">
 
 - CSS
   - No errors were found using W3C CSS validator testing.
-<img width="1416" alt="" src="">
+<img width="1416" alt="" src="assets/images/w3ccssvalidering.png">
 
 - JavaScript 
   - No errors were found using jShint validator testing.
-<img width="638" alt="" src="">
+<img width="1420" alt="" src="assets/images/jshint.png">
 
 ## Lighthouse testing
-<img width="1430" alt="" src="">
+<img width="650" alt="" src="assets/images/lighthousepp2.png">
 
 ## Testing and Bugs
 Tests have been conducted using Google Chrome, testing different devices and screen resolutions through google dev tools.
 The following is the bugs I came across:
 
 1. The next button was not centered as I wanted.
- - Solution; 
-2. Solution; The Timer on the Quiz page carries on to finish and then says "Done" and doesn't reset automatically. 
- - The timer resets once the 'Reload' button is clicked.
-3. 
-4. 
-5. 
+ - Solution; change padding in button and change padding, width and margin in quiz-section.
+2.The Timer on the Quiz page carries on to finish and then says "Done" and doesn't reset automatically. 
+ -  Solution; The timer resets once the 'Reload' button is clicked.
+3. The font awsom dont work on the quiz-page.
+-solution;
+
 
 # Deployment 
 The development platform used for this project was GitPod. To track the development stage and handle version control regular commits and pushes to GitHub has been conducted. The GitPod environment was created using a template provided by Code Institute.
