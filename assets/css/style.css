@@ -233,36 +233,28 @@ button:hover {
     }
     @media screen and (min-width: 0px) and (max-width: 480px) {
 
-    
-    body {width:100%;}
-
-        header {
-            width: 80%;
-        }
-        
-        h2 {
-        font-size: 1.6rem;
-    }
-        #logo {
-            font-size: 1.5rem;
-            top: 8%;
-        }
-
         #welcome {
-            font-size: 4.5rem;
-            left: 20px;
+            font-size: 2rem;
+            width: 100%;
         }
         #start {
-            font-size: 1rem;
-        }
-
-        button {
             font-size: 2rem;
+            left: 50%;
+        }
+        #logo {
+            font-size: 1.3rem;
+           
+        }
+        #count {
+            font-size: 1.3rem;
         }
 
         #menu-bar a {
-            font-size: 1.4rem;
-        top: -10%;
+            font-size: 1.2rem;
+        top: 6%;
+        }
+        h2 {
+            font-size: 1.3rem;
         }
 
         /*quis page*/
@@ -270,31 +262,27 @@ button:hover {
             top: 5%;
         width: 95%;
         }
-        #quis-head {
-            width: 100%;
-        }
-        .question {
-            width: 100%;
-        }
-        .answers {
-            width: 100%;
-        }
+        
         #count {
             font-size: 2.5rem;
         }
+
+        ul li label {
+            font-size: 1.3rem;
+        }
     
         button {
-            font-size: 1,5rem;
+            font-size: 1.4rem;
+            padding: 6%;
         }
     
         #menu-bar a {
-            font-size: 2rem;
+            font-size: 1.2rem;
+            top: 6%;
         }
-        ul li label {
-            font-size: 1.5rem;
-        }
+       
     
         input[type='radio'] {
-            transform: scale(1.5);
+            transform: scale(1.4);
         }
     }
