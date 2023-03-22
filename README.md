@@ -122,6 +122,8 @@ The following is the bugs I came across:
  -  Solution; The timer resets once the 'Reload' button is clicked.
 3. The font awsom don't work on the quiz-page.
 -solution; Add the script of fontawsom in the head of the quiz.html.
+4. The next button is visible below the relod button without any function.
+-solution; moved the next button in to the div.
 
 
 # Deployment 

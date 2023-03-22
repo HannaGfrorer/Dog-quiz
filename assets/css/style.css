@@ -144,13 +144,6 @@ p {
     line-height: 5%;
     font-family: "Nunito+Sans", sans-serif;
 }
-.red {
-    color: #FF0000;
-}
-
-.green {
-    color: #008000;
-}
 
 button:hover {
     background-color: #FEFEFE;
@@ -195,6 +188,7 @@ button:hover {
 
 .action-btn {
     display: none;
+   
 }
 
  .score-area {
@@ -206,6 +200,12 @@ button:hover {
 .controls-area {
         width: 85%;
         margin: 30px auto;
+    }
+    
+    .active {
+        color: #0a0a0a;
+        
+       
     }
     
     /* -- mobile design -- */
