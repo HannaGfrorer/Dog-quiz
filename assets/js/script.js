@@ -96,19 +96,7 @@ function getSelected() {
     return answer;
 }
 
-/**
- * Checks whether the user's answer is correct, and changes styling of buttons accordingly
- */
-function checkAnswer() {
-    let answer = currentQuestion.answer;
-    let response = this.innerText;
-    if (answer === response) {
-        this.style.backgroundColor = "green";
-        incrementScore();
-    } else {
-        this.style.backgroundColor = "red";
-    }
-}
+
 
 submitButton.addEventListener('click', () => {
     const answer = getSelected();
@@ -122,7 +110,7 @@ submitButton.addEventListener('click', () => {
         quiz.innerHTML = `<h2>You answered ${score}/${questionData.length} questions correctly</h2>
             <button onclick="location.reload()">Reload</button>`;
     }
-    document.getElementById('submit').style.visibility='hidden';
+    
 });
 
 startQuiz();
