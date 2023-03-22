@@ -51,8 +51,6 @@ const aText = document.getElementById('a-text');
 const bText = document.getElementById('b-text');
 const cText = document.getElementById('c-text');
 const submitButton = document.getElementById('submit');
-const answerButtons = document.getElementsByClassName("answer-btn");
-const shareResultsButton = document.getElementsByClassName("share-results")[0];
 
 
 // counter
