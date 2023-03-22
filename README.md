@@ -86,8 +86,8 @@ The images have been selected according to the question topic The purpose of the
 
 - The end of the quiz shows us the amount of questions we answered correctly out of 6 questions. And it also includes a 'Reload' button which will bring you to the first question again and it will reset the timer for you to try the quiz again! Or you select the Go back button and get to the start page.
 
-<img width="760" alt="" src="assets/images/relode.png">
-<img width="760" alt="" src="assets/images/goback.png">
+<img width="760" alt="" src="assets/images/relode1.png">
+<img width="760" alt="" src="assets/images/goback1.png">
 
 # Technologies Used 
 - HTML
