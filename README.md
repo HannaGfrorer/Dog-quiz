@@ -125,6 +125,8 @@ The following is the bugs I came across:
 -solution; Add the script of fontawsom in the head of the quiz.html.
 4. The next button is visible below the relod button without any function.
 -solution; moved the next button in to the div.
+5. Got an error when I checked with the console, that javascript was loaded incorrectly.
+- Solution: removed javascript from index.html page.
 
 
 # Deployment 
