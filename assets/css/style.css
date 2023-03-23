@@ -36,7 +36,7 @@ body {
     border-radius: 10%;
     padding: 10px;
     text-align: center;
-    box-shadow: 2px 1px;
+    box-shadow: 0 0 10px 2px;
 }
 
 #dogbigear {
@@ -114,8 +114,8 @@ p {
 /* --------- quiz layout */
 .quiz-section {
     background-color: #D8D1CC;
-    border-radius: 40px;
-    box-shadow: 8px 5px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px;
     width: 700px;
     margin-left: auto;
     margin-right: auto;
@@ -136,13 +136,7 @@ p {
 /*Question styling*/
 .question {
     font-weight: 600;
-    font-size: 2rem;
-    font-family: "Nunito+Sans", sans-serif;
-}
-
-.answers {
-    margin-bottom: 20px;
-    line-height: 5%;
+    font-size: 1rem;
     font-family: "Nunito+Sans", sans-serif;
 }
 
@@ -157,7 +151,7 @@ ul {
 }
 
 ul li {
-    font-size: 1.5rem;
+    font-size: 1rem;
     margin: 3%;
 }
 
@@ -207,7 +201,6 @@ button:hover {
     color: #0a0a0a;
 }
 
-/* -- mobile design -- */
 @media screen and (min-width: 480px) and (max-width: 1000px) {
     body {
         width: 100%;
